@@ -1,0 +1,10 @@
+.footer a {
+    text-decoration: none;
+    color: red;
+}
+.footer a:hover {
+    color: pink;
+}
+.icon{
+    color: red;
+}
