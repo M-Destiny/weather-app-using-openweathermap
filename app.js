@@ -2,7 +2,7 @@ var input = document.getElementById('city');
 var button = document.getElementById('submit');
 
 button.onclick = function () {
-    fetch('https://api.openweathermap.org/data/2.5/weather?q=' + input.value + '&units=metric&appid=7009623cb86613fa3cce04e30a6864b9')
+    fetch('https://api.openweathermap.org/data/2.5/weather?q=' + input.value + '&units=metric&appid={API key}')
         .then(response => response.json())
         .then(data => {
             var temp = data['main']['temp']; //Temprature
